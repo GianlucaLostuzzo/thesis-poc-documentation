@@ -10,12 +10,12 @@ When the installation of the containers has finished, follow these steps needed 
 </ul>
 
 Right click on "Servers" and click Register - Server</br>
-<img src="./assets/server%20creation.png" width = 500/></br>
+<img src="../assets/server%20creation.png" width = 500/></br>
 
 Give a name to the server</br>
-<img src="./assets/general.png" width = 500/></br>
+<img src="../assets/general.png" width = 500/></br>
 
 Select "Connection" tab and write the name of the service "db", the username and password of PostgreSQL<br>
-<img src="./assets/db.png" width = 500/></br>
+<img src="../assets/db.png" width = 500/></br>
 
 Click "Save".
