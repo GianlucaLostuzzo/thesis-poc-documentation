@@ -20,3 +20,9 @@ Docker <b>must</b> be installed in your machine.
   <li>Move to the folder where the docker-compose.yml file is saved</li>
   <li>Run the command "docker compose up -d"</li>
 </ol>
+
+Now it's possible to configure PostgreSQL,PgAdmin 4 and Appsmith from these guides:
+<ul>
+  <li><a href="../postgres"> PostgreSQL & PgAdmin 4</a></li>
+  <li><a href="../appsmith"> Appsmith</a></li>
+</ul>
