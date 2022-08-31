@@ -1,6 +1,6 @@
 # PostgreSQL & PgAdmin 4 configuration
 
-When the installation of the containers has finished, follow these steps needed to connect PgAdmin 4 to PostgreSQL:
+When the installation of the containers has finished, follow these steps to connect PgAdmin 4 with PostgreSQL:
 <ul>
   <li>In your browser navigate to localhost:5050</li>
   <li>Insert the credentials for PgAdmin 4 (you can find them in the docker-compose file)</li>
@@ -15,7 +15,11 @@ Right click on "Servers" and click Register - Server</br>
 Give a name to the server</br>
 <img src="../assets/general.png" width = 500/></br>
 
-Select "Connection" tab and write the name of the service "db", the username and password of PostgreSQL<br>
+Select "Connection" tab and write the name of the service "db", the username and password of PostgreSQL (docker compose file)<br>
 <img src="../assets/db.png" width = 500/></br>
 
-Click "Save".
+Click "Save". Now PgAdmin is connected to PostgreSQL and it is possible to follow the final steps for correctly creating the DB.
+
+<ul>
+  <li> Download the folder "Data" </li>
+</ul>
