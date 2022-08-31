@@ -1,5 +1,6 @@
 ## Appsmith configuration and usage
 
+<h2>First configuration</h2></p>
 After the installation of the platfrom through Docker, as documented <a href="../README.md">here</a>, navigate in your browser to "localhost:80" and you'll see the welcome page of Appsmith.
 
 <img src="../assets/appsmith.png" width="600"/></p>
@@ -13,4 +14,59 @@ After the sign up, Appsmith will propose to guide you in the creation of your fi
 The homepage will be something like this:</br>
 <img src="../assets/homepage.png" width= "600"/></p>
 
-Now it is possible to import the applications in the workspaces directly from GitHub by forking as showed in their <a href="https://docs.appsmith.com/advanced-concepts/version-control-with-git/import-from-repository" target="_blank">documentation</a>.
+<h2>Workspaces configuration</h2></p>
+
+This platform is based on 4 different applications that are based on four roles:
+<ul>
+  <li>Administrator
+     <ul>
+       <li>Can insert new courses, new users, new enterprises, accept or decline subscription requests</li>
+       <li>Can modify all the applications</li>
+     </ul>
+  </li>
+  <li>Approvers
+     <ul>
+       <li>Can insert new courses, accept or decline subscription requests</li>
+     </ul>
+  </li>
+  <li>Enterprise
+     <ul>
+       <li>Can request a subscription to a learning course for their employees</li>
+     </ul>
+  </li>
+  <li>Employee (User)
+     <ul>
+       <li>Can request a subscription to a learning course</li>
+     </ul>
+  </li>
+</ul></p>
+
+Therefore it's needed the creation of four different workspaces for each type of user, to do so click on "New Workspace" and create the four different workspaces.
+
+<img src="../assets/workspaces.png" width="600"/></p>
+
+Finished the creation of the workspaces, the homepage will be like the following image.</br>
+<img src="../assets/hp.png" width="600"/></p>
+
+It is possible now to import the applications in the workspaces from GitHub:
+<ul>
+  <li>Fork these repositories to your profile
+    <ul>
+      <li><a href="https://github.com/GianlucaLostuzzo/thesis_poc_admin">Admins</a></li>
+      <li><a href="https://github.com/GianlucaLostuzzo/thesis-poc-approver">Approvers</a></li>
+      <li><a href="https://github.com/GianlucaLostuzzo/thesis-poc-enterprise">Enterprises</a></li>
+      <li><a href="https://github.com/GianlucaLostuzzo/thesis_poc_users">Users</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
