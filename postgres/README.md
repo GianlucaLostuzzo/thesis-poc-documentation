@@ -31,6 +31,9 @@ Click "Save". Now PgAdmin is connected to PostgreSQL and it is possible to follo
       <li>Right click on the name of the created database</li>
       <li>Select <b>Query Tool</b></li>
       </br><img src="../assets/querytool.png" width = "400"/></br>
+      <li>Click on the folder icon then on the options icon and finally click <b>Upload</b></li>
+      </br><img src="../assets/options.png" width = "400"/></br>
+      <li>Drag and drop the files present in the folder "data" previously downloaded</li>
     </ul>
   </li>
 </ul>
