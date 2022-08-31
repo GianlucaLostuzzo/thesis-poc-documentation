@@ -48,6 +48,8 @@ Therefore it's needed the creation of four different workspaces for each type of
 Finished the creation of the workspaces, the homepage will be like the following image.</br>
 <img src="../assets/hp.png" width="600"/></p>
 
+<h2>Applications import</h2>
+
 It is possible now to import the applications in the workspaces from GitHub:
 <ul>
   <li>Fork these repositories to your profile
@@ -71,8 +73,46 @@ It is possible now to import the applications in the workspaces from GitHub:
   </br><img src="../assets/namingkey.png" width="600"/></br>
   <li>On Appsmith select <b>Import</b></li>
   </br><img src="../assets/importkey.png" width="600"/></br>
+</ul></p>
+
+<h2>Application configuration</h2>
+
+After the import, Appsmith will request the settings for the datasources which are:
+<ul>
+  <li>PostgreSQL for the database</li>
+  <li>Sendgrid for the smtp and mail settings</li>
 </ul>
 
+PostgreSQL settings:
+<ul>
+  <li>Host address: host.docker.internal</li>
+  <li>Port: 5431 </li>
+  <li>Database name: DB_name</li>
+  <li>Username: admin (from docker compose file)</li>
+  <li>Password: admin (from docker compose file)</li>
+</ul>
+
+</br><img src="../assets/pgsource.png" width="600"/></p>
+
+Sendgrid settings (you'll need to have a sendgrid profile and api, if you don't <a href="https://signup.sendgrid.com">click here</a>):
+<ul>
+  <li>Host address: smtp.sendgrid.net</li>
+  <li>Port: 587</li>
+  <li>Username: apikey</li>
+  <li>Password: your_api_password</li>
+</ul>
+
+</br><img src="../assets/sendgridsource.png" width="600"/></p>
+
+Now the application is ready to be used.
+
+</br><img src="../assets/ok.png" width="600"/></p>
+
+To use the application click on the top-right corner and select "Current deployed version".
+
+Operate the same steps for each application and then share the different applications to the designed users.
+
+Refer to <a href="https://docs.appsmith.com/getting-started/readme">Appsmith's documentaion</a> for every problem.
 
 
 
