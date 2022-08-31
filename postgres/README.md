@@ -33,7 +33,18 @@ Click "Save". Now PgAdmin is connected to PostgreSQL and it is possible to follo
       </br><img src="../assets/querytool.png" width = "400"/></br>
       <li>Click on the folder icon then on the options icon and finally click <b>Upload</b></li>
       </br><img src="../assets/options.png" width = "400"/></br>
-      <li>Drag and drop the files present in the folder "data" previously downloaded</li>
+      <li>Drag and drop (or select) the files present in the folder "data" previously downloaded</li>
+      <li>Click on the close window button</li>
+      </br><img src="../assets/import.png" width = "400"/></br>
+      <li>Select "create.sql" and click on "Select"</li>
+      <li>Click on the first row</li>
+      <li>Select all the rows (Ctrl+A, Command+A)</li>
+      <li>Click on the play icon for creating all the tables and types needed</li>
+      </br><img src="../assets/execute.png" width = "400"/></br>
+      <li>Explode "Schemas" in the database tree on the left</li>
+      <li>Explode "Tables"</li>
+      <li>Right click on "Province" and click on <b>Import/Export Data</b></li>
+      </br><img src="../assets/importdata.png" width = "400"/></br>
     </ul>
   </li>
 </ul>
