@@ -1,6 +1,6 @@
 <h1> Corsi di Formazione </h1>
 
-A low-code web-based platform for managing business learning courses.
+A low-code web-based basic platform for managing business learning courses.
 
 <h2> Why </h2>
 
