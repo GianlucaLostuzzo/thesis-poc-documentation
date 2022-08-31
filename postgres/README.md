@@ -26,10 +26,11 @@ Click "Save". Now PgAdmin is connected to PostgreSQL and it is possible to follo
     <ul>
       <li>Click on <b>Object</b> in the tab section </li>
       <li>Select <b>Create -> Database </b></li>
-      </br><img src="" width = "400"/></br>
+      </br><img src="../assets/createdb.png" width = "400"/></br>
       <li>Give the name to the database ("Corsi di formazione") and <b>save</b></li>
       <li>Right click on the name of the created database</li>
       <li>Select <b>Query Tool</b></li>
+      </br><img src="../assets/querytool.png" width = "400"/></br>
     </ul>
   </li>
 </ul>
