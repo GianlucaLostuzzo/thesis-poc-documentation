@@ -21,5 +21,14 @@ Select "Connection" tab and write the name of the service "db", the username and
 Click "Save". Now PgAdmin is connected to PostgreSQL and it is possible to follow the final steps for correctly creating the DB.
 
 <ul>
-  <li> Download the folder "Data" </li>
+  <li> Download the folder "data" </li>
+  <li> In PgAdmin 4:
+    <ul>
+      <li>Click on <b>Object</b> in the tab section </li>
+      <li>Select <b>Create -> Database </b></li>
+      <li>Give the name to the database ("Corsi di formazione") and <b>save</b></li>
+      <li>Right click on the name of the created database</li>
+      <li>Select <b>Query Tool</b></li>
+    </ul>
+  </li>
 </ul>
