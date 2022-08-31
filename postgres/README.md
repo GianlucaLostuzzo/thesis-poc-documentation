@@ -45,8 +45,8 @@ Click "Save". Now PgAdmin is connected to PostgreSQL and it is possible to follo
       <li>Explode "Tables"</li>
       <li>Right click on "Province" and click on <b>Import/Export Data</b></li>
       </br><img src="../assets/importdata.png" width = "400"/></br>
-      <li>Select "ComuniProvCodCap.csv" file</li>
-      </br><img src="../assets/selectcsv.png" width = "400"/></br>
+      <li>Select "province.csv" file</li>
+      </br><img src="../assets/select.png" width = "400"/></br>
       <li>Enable the "header" option in the Options section and set the Delimiter as comma (,)</li>
       </br><img src="../assets/importoptions.png" width = "400"/></br>
       <li>Verify in the Column section that the sequence of columns is exactly regione, nome, codice </li>
