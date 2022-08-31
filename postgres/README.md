@@ -51,6 +51,13 @@ Click "Save". Now PgAdmin is connected to PostgreSQL and it is possible to follo
       </br><img src="../assets/importoptions.png" width = "400"/></br>
       <li>Verify in the Column section that the sequence of columns is exactly regione, nome, codice </li>
       <li>Click <b>Ok</b></li>
+      <li>Right click on "Comuni" and click on <b>Import/Export Data</b></li>
+      </br><img src="../assets/selectcsv.png" width = "400"/></br>
+      <li>Verify that the option settings are the same as the previous steps</li>
+      <li>Verify in the last section that the columns are ordered as nome, provincia, codice, cap</li>
+      <li>Click <b>Ok</b></li>
     </ul>
   </li>
-</ul>
+</ul></p>
+
+Now the database is ready.
