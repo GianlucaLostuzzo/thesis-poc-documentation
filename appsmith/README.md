@@ -58,6 +58,19 @@ It is possible now to import the applications in the workspaces from GitHub:
       <li><a href="https://github.com/GianlucaLostuzzo/thesis_poc_users">Users</a></li>
     </ul>
   </li>
+  <li>In the corresponding workspaces, click on the options button and select <b>Import</b></li>
+  </br><img src="../assets/importselect.png" width="600"/></br>
+  <li>Select <b>Import from a Git repo</b></li>
+  <li>Go to the forked repo and retrieve the SSH url</li>
+  </br><img src="../assets/sshurl.png" width="600"/></br>
+  <li>Copy the SSH in Appsmith and click <b>Generate Key</b></li>
+  </br><img src="../assets/key.png" width="600"/></br>
+  <li>Copy the generated key and go to settings -> Deploy Keys on the GitHub repo</li>
+  </br><img src="../assets/gitkey.png" width="600"/></br>
+  <li>Click on <b>Add deploy key</b>, give a name to the key, paste it, check the enable write access and click <b>Add key</b></li>
+  </br><img src="../assets/namingkey.png" width="600"/></br>
+  <li>On Appsmith select <b>Import</b></li>
+  </br><img src="../assets/importkey.png" width="600"/></br>
 </ul>
 
 
