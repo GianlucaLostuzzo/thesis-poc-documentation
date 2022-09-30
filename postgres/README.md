@@ -4,7 +4,7 @@ When the installation of the containers has finished, follow these steps to conn
 <ul>
   <li>In your browser navigate to localhost:5050</li>
   <li>Insert the credentials for PgAdmin 4 (you can find them in the docker-compose file)</li>
-  <li>Defuault credentials:</li>
+  <li>Default credentials:</li>
   <ul><li>User: admin@admin.com</li><li>Pwd: admin</li></ul>
   <li>Click on Login</li>
 </ul>
